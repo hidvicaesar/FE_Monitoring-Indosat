@@ -2,7 +2,7 @@
 
 A production-ready React network monitoring dashboard for NOC (Network Operations Center) operators.
 
-## Features Monitoring
+## Features
 
 - **Dashboard**: Overview of network health with key metrics and charts
 - **Devices**: Manage and monitor all network devices (Grid/Table view)
