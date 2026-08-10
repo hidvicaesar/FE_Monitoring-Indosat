@@ -16,6 +16,7 @@ export function Devices() {
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'table'
 
   const loading = devicesLoading || networkLoading;
+  const loading 
 
   // Helper to format lastUpdate timestamp (Dipindah ke atas agar bisa dipakai saat map data)
   const formatLastUpdate = (isoString) => {

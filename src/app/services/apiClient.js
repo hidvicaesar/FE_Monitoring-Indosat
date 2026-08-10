@@ -2,10 +2,11 @@
 import axios from "axios";
 
 // ============================================================================
-// 1. MESIN API ASLI (Sudah siap tempur)
+// 1. MESIN API ASLI
 // ============================================================================
 const apiClient = axios.create({
-  baseURL: import.meta.env.VITE_API_URL, 
+  // Jika VITE_API_URL tidak ada di .env, otomatis pakai http://127.0.0.1:8000
+  baseURL: import.meta.env.VITE_API_URL || "http://127.0.0.1:8000", 
   headers: {
     "Content-Type": "application/json",
   },

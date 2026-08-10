@@ -3,11 +3,11 @@
 export const ENDPOINTS = {
   // 1. Pintu Masuk / Autentikasi
   LOGIN: "/api/auth/login",
-  
+
   // 2. Data Perangkat (Hosts) & Lokasi
-  HOSTS: "/api/hosts/", 
+  HOSTS: "/api/hosts/",
   UPDATE_LOCATION: (hostId) => `/api/hosts/${hostId}/location`, // Rute PUT untuk edit lokasi
-  
+
   // 3. Data Metrik/Sensor Zabbix (Items)
   ITEMS_BY_HOST: (hostId) => `/api/items/host/${hostId}`,
   ITEM_HISTORY: (itemId) => `/api/items/${itemId}/history`,
