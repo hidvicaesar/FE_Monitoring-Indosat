@@ -47,7 +47,7 @@ This application uses **dummy data only** via custom hooks. The architecture is 
   - 60-75°C: Warning
   - > 75°C: Critical
 
-## Project Structures
+## Project Structuress
 
 ```
 src/app/
