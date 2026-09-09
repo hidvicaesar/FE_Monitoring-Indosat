@@ -24,13 +24,15 @@ This application uses **dummy data only** via custom hooks. The architecture is 
 ### Status Models
 
 #### Network Monitoring
+
 - **Status**: `up` / `down`
-- **Visual Hints**: 
+- **Visual Hints**:
   - Mint green: Normal latency (<50ms)
   - Soft yellow: High latency (50-100ms)
   - Red: Critical/Timeout (>100ms)
 
 #### Memory Monitoring
+
 - **Status**: `healthy` / `warning` / `critical`
 - **Thresholds**:
   - < 70%: Healthy
@@ -38,13 +40,14 @@ This application uses **dummy data only** via custom hooks. The architecture is 
   - > 85%: Critical
 
 #### Temperature Monitoring
+
 - **Status**: `healthy` / `warning` / `critical`
 - **Thresholds**:
   - < 60°C: Healthy
   - 60-75°C: Warning
   - > 75°C: Critical
 
-## Project Structure
+## Project Structures
 
 ```
 src/app/
@@ -88,6 +91,7 @@ src/app/
   - Temperature
 
 All monitoring pages include:
+
 - Search functionality
 - Table ↔ Grid view toggle (default: Table)
 - Status-based filtering
